@@ -17,6 +17,7 @@ function distanceTravelledInFeet (start,end) {
     return (end - start)* 264
   }
 }
+
 function calculatesFarePrice(start, end){
   const distance = distanceTravelledInFeet(start,end)
 
@@ -29,5 +30,4 @@ function calculatesFarePrice(start, end){
   } else {
     return 'cannot travel that far';
   }
-
 }
